@@ -1,8 +1,8 @@
-/*.App {
-  text-align: center;
+.App {
+  background: #080420;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,3 +36,365 @@
     transform: rotate(360deg);
   }
 }*/
+.body{
+  background: #080420;
+  color: #fff;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+/*navigation starts*/
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40px;
+  width: 100%;
+  background: rgba(3, 8, 51, 1);
+  /*position: fixed;*/
+  gap: 15px; 
+}
+
+.nav-div{  
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*navigation end*/
+
+/*home start*/
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #080420;
+  gap: 30px;
+  margin-top: 20px;
+}
+.home-text1{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.home-text3{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.home-text2{
+  color: blue;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.home-pic{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.home-container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 5px;
+}
+.home-container1 button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  /*justify-content: center;*/
+}
+.container1 img{
+  width: 40px;
+  height: 40px;
+  /*margin-left: 25px;*/
+  /*margin: 0 auto;*/
+  border-radius: 20px;
+}
+hr{
+  color: #fff;
+  
+}
+.home-btn{
+  background: blue;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 20px;
+  border: none;
+  padding: 12px;
+  width: fit-content;
+  margin: 0 auto;
+}
+/*home end*/
+/*about start*/
+.about-text1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 auto;
+  
+}
+.about-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 5%;
+
+}
+.about-pic{
+  width: 300px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.about-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  margin: 0 auto;
+ 
+}
+.about-text2{
+    color: blue;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 0 auto;
+  }
+
+.about-text3{
+color: #fff;
+font-size: 27px;
+line-break: strict;
+line-height: 50px;
+}
+/*about end*/
+/*skills start*/
+.sub-con-skill{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.sub-con-skill1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 30px;
+}
+.sub-con-skill1 img{
+  margin-top: 25px;
+}
+.sub-skill-text{
+  font-size: 25px;
+  margin: 0 auto;
+}
+.sub{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.sub-text{
+  color: lightslategray;
+  margin-left: 620px;
+  margin-top: 15px;
+}
+.sub-text1{
+  color: lightslategray;
+  margin-left: 620px;
+  margin-top: -15px;
+  
+}
+.sub1-text{
+  color: lightslategray;
+  margin-left: 670px;
+  margin-top: 15px;
+}
+.sub1-text1{
+  color: lightslategray;
+  margin-left: 670px;
+  margin-top: -15px;
+  
+}
+/*skills end*/
+/*work start*/
+.work-text2{
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.work-img{
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+/*work end*/
+/*footer start*/
+.foo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(3, 8, 51, 1);
+    gap: 15px;
+  }
+
+/*footer end*/
+/*media query*/
+@media screen and (max-width: 412px){
+  /*nav*/
+  nav{
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background: rgba(3, 8, 51, 1);
+    gap: 15px; 
+    
+  }
+  
+  .nav-div{  
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    gap: 20px;
+  }
+  /*nav*/
+  /*home start*/
+  .container{
+    justify-content: center;
+    gap: 17px;
+  }
+  img{
+    width: 35px;
+    height: 35px;
+    margin-top: -20px;
+  }
+  .home-text1{
+    font-size: 35px;
+  }
+  .home-text3{
+    font-size: 35px;
+  }
+  .home-text2{
+    font-size: 35px;
+  }
+  .home-pic{
+    width: 150px;
+    height: 150px;
+    margin-top: -15px;
+  }
+  .home-btn{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 12px;
+    margin-top: -20px;
+  }
+  /*home end*/
+  /*about start*/
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-text1{
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .about-pic{
+      width: 260px;
+      height: 340px;
+      margin-top: -40px;
+      margin-left: 50px;
+      border-radius: 50px;
+      
+  }
+  .about-text3{
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: -25px;
+    line-height: 40px;
+    
+    }
+    .about-text2{
+      font-size: 25px;
+      margin-left:-20px;
+    }
+    
+  
+  /*about end*/
+  .work-img 
+  {
+    width:400px;
+    height:200px;
+  }
+  
+  .mainc{
+    gap: 120px;
+  }
+  .nav-div a{
+    font-size: 15px;
+    margin-left: -10px;
+  }
+  /*skills start*/
+  .sub-con-skill{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .sub-con-skill1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .sub-con-skill1 img{
+    margin-top: 25px;
+  }
+  .sub-skill-text{
+    font-size: 25px;
+    margin-left: 150px;
+  }
+  .sub{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .sub-text{
+    color: lightslategray;
+    margin-left: 60px;
+    margin-top: 15px;
+  }
+  .sub-text1{
+    color: lightslategray;
+    margin-left: 60px;
+    margin-top: -15px;
+    
+  }
+  .sub1-text{
+    color: lightslategray;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .sub1-text1{
+    color: lightslategray;
+    margin-left: 90px;
+    margin-top: -15px;
+    
+  }
+  .sub-con-skill1 img{
+    width: 60px;
+    height: 60px;
+  }
+  .work-text2{
+    font-size: 17px;
+  }
+  /*skills end*/
+}
