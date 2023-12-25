@@ -6,7 +6,8 @@ Hello, I'm DharshiniSelvaraj , a passionate and detail-oriented Front-end develo
 ## Skills
 Here are some of the key skills and technologies I work with:
 
-- **Frontend Development:** HTML, CSS, JavaScript, ReactJS
+- **Frontend Development:** HTML, CSS, JavaScript
+- **Framework:** ReactJS
 - **UI/UX Design:** Figma
 - **Version Control:** Git, GitHub
 - **Deployment:** Netlify
